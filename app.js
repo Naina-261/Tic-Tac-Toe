@@ -47,8 +47,8 @@ const checkWin = () => {
         }
         if(pos1===pos2 && pos2===pos3){
             boxes[pattern[0]].style.backgroundColor = "#B7CE63";
-            boxes[pattern[1]].style.backgroundColor = "B7CE63";
-            boxes[pattern[2]].style.backgroundColor = "B7CE63";
+            boxes[pattern[1]].style.backgroundColor = "#B7CE63";
+            boxes[pattern[2]].style.backgroundColor = "#B7CE63";
             showWinner(pos1);
             winnerFound = true;
             break
